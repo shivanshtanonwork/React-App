@@ -1,16 +1,12 @@
 import "./App.css";
-//import
-function Description() {
-  return <h3>This time mastering react</h3>;
-}
+import Title from "./Title";
 
 function App() {
   return (
     <div>
       <Title />
-      <Description />
+
       <Title />
-      <Description />
     </div>
   );
 }
